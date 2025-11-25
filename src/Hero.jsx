@@ -1,6 +1,6 @@
 import { Navbar } from "./Navbar";
 import heroImage from "./assets/hero-image.jpeg";
-// import clientLogos from "src/assets/clients-logos.png";
+import clientLogos from "./assets/clients-logo.png";
 
 export function Hero() {
   return (
@@ -9,7 +9,7 @@ export function Hero() {
         <Navbar />
         <div className="hero-section">
           <div className="header-text">
-            <h1 className="h1-hero-text">OREOLUWA BAKARE FATIMAT</h1>
+            <h1 className="h1-hero-text">Oreoluwa Bakare</h1>
             <p className="hero-para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
               mollitia eaque ipsam illum quos nesciunt ex cum beatae temporibus
@@ -20,6 +20,7 @@ export function Hero() {
             <div>
               <button className="hero-button">Let's get started</button>
             </div>
+            <div className="hero-past-clients-text">Worked with</div>
           </div>
 
           <div>
@@ -28,11 +29,9 @@ export function Hero() {
         </div>
       </header>
 
-      <div className="hero-past-clients-text">Worked with</div>
-
-      {/* <div>
+      <div>
         <img src={clientLogos} className="hero-past-clients-logo" />
-      </div> */}
+      </div>
     </>
   );
 }
