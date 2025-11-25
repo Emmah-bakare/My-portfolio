@@ -10,7 +10,7 @@ export function Hero() {
         <div className="hero-section">
           <div className="header-text">
             <h1 className="h1-hero-text">OREOLUWA BAKARE FATIMAT</h1>
-            <p>
+            <p className="hero-para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
               mollitia eaque ipsam illum quos nesciunt ex cum beatae temporibus
               rem. Esse assumenda obcaecati eligendi explicabo voluptatem magnam
@@ -18,7 +18,7 @@ export function Hero() {
             </p>
 
             <div>
-              <button className="hero-header">Let's get started</button>
+              <button className="hero-button">Let's get started</button>
             </div>
           </div>
 

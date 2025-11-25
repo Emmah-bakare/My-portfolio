@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 // import SmIcons from "src/assets/social-media-icons.png";
 
 export function Navbar() {
