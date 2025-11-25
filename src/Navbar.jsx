@@ -22,13 +22,14 @@ export function Navbar() {
           <Link style={linkStyling} to="/">
             Get In Touch
           </Link>
-        </div>
-        <div>
-          <img
-            src={SmIcons}
-            alt="social-media-icons"
-            className="navbar-icons"
-          />
+
+          <div>
+            <img
+              src={SmIcons}
+              alt="social-media-icons"
+              className="navbar-icons"
+            />
+          </div>
         </div>
       </nav>
     </>

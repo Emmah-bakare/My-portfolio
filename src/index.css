@@ -26,22 +26,25 @@ body {
 
 .navbar-links {
   display: flex;
-  gap: 70px;
+  gap: 40px;
   height: 18px;
-  width: 717px;
+  width: 850px;
   justify-self: center;
   padding-top: 24px;
   left: 180px;
-  color: #434343;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 14px;
+  font-style: "Regular";
+  line-height: 100%;
+  letter-spacing: 1%;
 }
 
 .navbar-icons {
-  display: flex;
-  justify-self: flex-end;
   width: 107.54px;
   height: 14px;
   top: 26px;
-  left: 992px;
+  margin-left: 50px;
 }
 
 .header-text {
