@@ -1,18 +1,25 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import { Home } from "./Home";
+import { Error } from "./Error";
+import { GetInTouch } from "./Get-in-touch";
+import { CaseStudies } from "./Case-studies";
+import { RecentWork } from "./Recent-work";
+import { Testimonials } from "./Testimonials";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export function App() {
   return (
     <>
-      <div>
-        <h1>MY PORTFOLIO</h1>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/recent-work" element={<RecentWork />} />
+          <Route path="/get-in-touch" element={<GetInTouch />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
-
-export default App;
