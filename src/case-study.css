@@ -66,7 +66,6 @@
   object-fit: contain;
   padding-left: 50px;
   height: 100%;
-  width: 100vw;
 }
 
 .first-sec-button {
@@ -98,7 +97,6 @@
 .casestudy-second-img {
   object-fit: contain;
   height: 100%;
-  width: 100vw;
 }
 
 .casestudy-second-sec-industry {
@@ -152,7 +150,6 @@
   object-fit: contain;
   padding-left: 50px;
   height: 100%;
-  width: 100vw;
 }
 
 .casestudy-third-text {

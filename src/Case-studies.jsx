@@ -32,7 +32,7 @@ export function CaseStudies() {
             </div>
           </div>
 
-          <div className="casestudy-first-img">
+          <div>
             <img
               className="casestudy-first-img"
               src={firstImage}
@@ -44,7 +44,7 @@ export function CaseStudies() {
         {/* second section  */}
 
         <section className="casestudy-second-sec">
-          <div className="casestudy-second-img">
+          <div>
             <img
               className="casestudy-second-img"
               src={thirdImage}
@@ -82,7 +82,7 @@ export function CaseStudies() {
             </div>
           </div>
 
-          <div className="casestudy-third-img">
+          <div>
             <img
               className="casestudy-third-img"
               src={secondImage}
