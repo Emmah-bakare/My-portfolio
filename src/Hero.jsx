@@ -5,7 +5,7 @@ import clientLogos from "./assets/clients-logo.png";
 export function Hero() {
   return (
     <>
-      <header>
+      <header className="full-hero-section">
         <Navbar />
         <div className="hero-section">
           <div className="header-text">
@@ -27,11 +27,11 @@ export function Hero() {
             <img src={heroImage} alt="hero-image" className="hero-image" />
           </div>
         </div>
-      </header>
 
-      <div>
-        <img src={clientLogos} className="hero-past-clients-logo" />
-      </div>
+        <div>
+          <img src={clientLogos} className="hero-past-clients-logo" />
+        </div>
+      </header>
     </>
   );
 }

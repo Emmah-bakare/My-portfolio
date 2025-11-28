@@ -10,16 +10,16 @@ export function Navbar() {
           <Link style={linkStyling} to="/">
             Home
           </Link>
-          <Link style={linkStyling} to="/">
+          <Link to="/case-studies" style={linkStyling}>
             Case Studies
           </Link>
-          <Link style={linkStyling} to="/">
+          <Link style={linkStyling} to="/testimonials">
             Testimonials
           </Link>
-          <Link style={linkStyling} to="/">
+          <Link style={linkStyling} to="/recent-work">
             Recent Work
           </Link>
-          <Link style={linkStyling} to="/">
+          <Link style={linkStyling} to="/get-in-touch">
             Get In Touch
           </Link>
 
