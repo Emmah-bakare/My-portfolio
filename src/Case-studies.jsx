@@ -1,4 +1,5 @@
 import "./case-study.css";
+import { Link } from "react-router-dom";
 import firstImage from "./assets/first-img-casestudy.jpeg";
 import secondImage from "./assets/second-img-casestudy.jpeg";
 import thirdImage from "./assets/third-img-casestudy.jpeg";
@@ -7,6 +8,11 @@ export function CaseStudies() {
   return (
     <>
       <body className="casestudy-body">
+        <nav>
+          <Link to="/">
+            <button className="home-btn">❮</button>
+          </Link>
+        </nav>
         <header className="intro-text">
           <h1 className="intro-heading">Case Studies</h1>
           <p className="intro-para">

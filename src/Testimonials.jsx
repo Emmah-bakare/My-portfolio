@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img1 from "./assets/client-testimonial-1.png";
 import img2 from "./assets/client-testimonial-2.png";
 import img3 from "./assets/client-testimonial-3.png";
@@ -8,6 +9,11 @@ export function Testimonials() {
   return (
     <>
       <div className="testimonial-body">
+        <nav>
+          <Link to="/">
+            <button className="home-btn-testimonials">❮</button>
+          </Link>
+        </nav>
         <div>
           <h1 className="testimonials-h1-heading">Testimonials</h1>
 

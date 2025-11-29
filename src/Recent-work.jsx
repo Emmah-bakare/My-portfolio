@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import recentWork1 from "./assets/Recent-work-1.jpeg";
 import recentWork2 from "./assets/Recent-work-2.jpeg";
 import "./recent-work.css";
@@ -11,6 +12,11 @@ export function RecentWork() {
   };
   return (
     <>
+      <nav>
+        <Link to="/">
+          <button className="home-btn-recent-work">❮</button>
+        </Link>
+      </nav>
       <body className="recent-work-body">
         <div className="recent-work-intro">
           <h1 className="recent-work-h1">Recent Work</h1>

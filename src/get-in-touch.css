@@ -1,0 +1,86 @@
+.contact-form-bg {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.h1-form-heading {
+  width: 206px;
+  height: 40;
+  top: 81px;
+  gap: 10px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-style: "ExtraBold";
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  justify-self: center;
+  padding-top: 30px;
+}
+
+.form-intro {
+  width: 570px;
+  height: 48px;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: #9c9c9c;
+  justify-self: center;
+  padding-bottom: 30px;
+}
+
+.label {
+  width: 36px;
+  height: 16px;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  justify-self: left;
+}
+
+.input {
+  width: 350px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #f8f8f8;
+}
+
+.message-input {
+  width: 350px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #f8f8f8;
+}
+
+.submit-btn {
+  width: 350px;
+  height: 50px;
+  top: 542px;
+  border-radius: 4px;
+  border: 1px solid #62ba1b;
+  padding: 16px 24px;
+  gap: 10px;
+  background-color: #3f8e00;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  justify-self: center;
+}
