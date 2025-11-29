@@ -40,10 +40,13 @@ export function GetInTouch() {
         </div>
 
         <form onSubmit={handleSubmit}>
-          <div className="email-field">
-            <label className="label" htmlFor="email">
-              Email:
-            </label>
+          <div className="entry-field-div">
+            <div>
+              <label className="label" htmlFor="email">
+                Email:
+              </label>
+            </div>
+
             <input
               className="input"
               type="email"
@@ -54,10 +57,13 @@ export function GetInTouch() {
             />
           </div>
 
-          <div className="mobile-field">
-            <label className="label" htmlFor="mobile">
-              Mobile:
-            </label>
+          <div className="entry-field-div">
+            <div>
+              <label className="label" htmlFor="mobile">
+                Mobile:
+              </label>
+            </div>
+
             <input
               className="input"
               type="number"
@@ -68,10 +74,13 @@ export function GetInTouch() {
             />
           </div>
 
-          <div className="message-field">
-            <label className="label" htmlFor="message">
-              Message:
-            </label>
+          <div className="entry-field-div">
+            <div>
+              <label className="label" htmlFor="message">
+                Message:
+              </label>
+            </div>
+
             <input
               className="message-input"
               type="text"
