@@ -19,7 +19,7 @@ export function CaseStudies() {
         {/* first section  */}
 
         <section className="casestudy-first-sec">
-          <div className="casestudy-first-text">
+          <div className="casestudy-text">
             <div className="casestudy-first-sec-industry">Design</div>
             <div>
               <h2 className="casestudy-h2">Sunnyside</h2>
@@ -34,7 +34,7 @@ export function CaseStudies() {
 
           <div>
             <img
-              className="casestudy-first-img"
+              className="casestudy-img"
               src={firstImage}
               alt="first-portfolio-sample"
             />
@@ -46,13 +46,13 @@ export function CaseStudies() {
         <section className="casestudy-second-sec">
           <div>
             <img
-              className="casestudy-second-img"
+              className="casestudy-img"
               src={thirdImage}
               alt="third-portfolio-sample"
             />
           </div>
 
-          <div className="casestudy-second-text">
+          <div className="casestudy-text">
             <div className="casestudy-second-sec-industry">Social media</div>
             <div>
               <h2 className="casestudy-h2">Meet</h2>
@@ -69,7 +69,7 @@ export function CaseStudies() {
         {/* third section  */}
 
         <section className="casestudy-third-sec">
-          <div className="casestudy-third-text">
+          <div className="casestudy-text">
             <div className="casestudy-third-sec-industry">Interior Decor</div>
             <div>
               <h2 className="casestudy-h2">Room</h2>
@@ -84,7 +84,7 @@ export function CaseStudies() {
 
           <div>
             <img
-              className="casestudy-third-img"
+              className="casestudy-img"
               src={secondImage}
               alt="second-portfolio-sample"
             />

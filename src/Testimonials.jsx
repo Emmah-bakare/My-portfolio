@@ -23,7 +23,6 @@ export function Testimonials() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-
             <div className="testimonial-img-and-name">
               <img className="testimonial-image" src={img1} alt="a-woman" />
 
@@ -36,7 +35,6 @@ export function Testimonials() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-
             <div className="testimonial-img-and-name">
               <img className="testimonial-image" src={img2} alt="a-man" />
 
@@ -51,7 +49,6 @@ export function Testimonials() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-
             <div className="testimonial-img-and-name">
               <img className="testimonial-image" src={img3} alt="a-woman" />
 
@@ -64,7 +61,6 @@ export function Testimonials() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-
             <div className="testimonial-img-and-name">
               <img className="testimonial-image" src={img4} alt="a-man" />
 

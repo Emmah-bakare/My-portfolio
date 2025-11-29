@@ -42,31 +42,67 @@
 
 .testimonial-container {
   position: relative;
-  border: 0.25px solid #9c9c9c;
+  border-left: 0.05px solid #9c9c9c;
   border-right: none;
   border-radius: 10px;
   width: 445px;
   height: 212px;
   padding: 30px;
-  margin: 40px;
+  margin: 20px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  color: #ffffff;
+}
+
+.testimonial-container::before,
+.testimonial-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 0.5px;
+}
+
+/* .testimonial-container::before {
+  top: 0;
+  width: 50%;
+  background: linear-gradient(
+    to right,
+    #9c9c9c,
+    rgba(156, 156, 156, 156)
+  ); 
+} */
+
+.testimonial-container::after {
+  bottom: 0;
+  width: 50%;
+  background: linear-gradient(
+    to right,
+    #9c9c9c,
+    rgba(156, 156, 156, 0)
+  ); /* Solid to transparent gradient for bottom */
 }
 
 .testimonial-container::before {
-  content: "";
+  content: "“";
   position: absolute;
+  font-size: 100px;
+  color: #fff;
+  z-index: 1;
+  font-family: "Raleway";
+  line-height: 100%;
+  letter-spacing: 1%;
+  width: 32px;
+  height: 100px;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  border: 0.25px solid #9c9c9c;
-  border-right: none;
-  border-radius: 10px;
-  pointer-events: none;
-  mask-image: linear-gradient(to right, rgba(156, 156, 156), transparent 100%);
-  mask-mode: alpha;
 }
 
-.testimonial-container .testimonial-para {
+.testimonial-para {
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-style: normal;

@@ -34,11 +34,13 @@
 
 .casestudy-first-sec {
   display: flex;
+  gap: 100px;
   width: 892px;
   height: 300px;
   justify-self: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
 .casestudy-first-sec-industry {
@@ -58,14 +60,39 @@
   color: #ffa217;
 }
 
-.casestudy-first-text {
+.casestudy-text {
   text-align: left;
+  padding-top: 30px;
 }
 
-.casestudy-first-img {
-  object-fit: contain;
-  padding-left: 50px;
-  height: 100%;
+.casestudy-img {
+  object-fit: cover;
+  width: 500px;
+  height: 320px;
+  border-radius: 6px;
+}
+
+.casestudy-h2 {
+  width: 192px;
+  height: 28px;
+  font-size: "Raleway";
+  font-weight: 800;
+  font-size: 24px;
+  font-style: ExtraBold;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.casestudy-para {
+  width: 421px;
+  height: 96px;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: #9c9c9c;
 }
 
 .first-sec-button {
@@ -87,16 +114,13 @@
 
 .casestudy-second-sec {
   display: flex;
+  gap: 100px;
   width: 892px;
   height: 300px;
   justify-self: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.casestudy-second-img {
-  object-fit: contain;
-  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
 .casestudy-second-sec-industry {
@@ -114,10 +138,6 @@
   line-height: 24px;
   letter-spacing: 1%;
   color: #000aff;
-}
-
-.casestudy-second-text {
-  text-align: left;
 }
 
 .second-sec-button {
@@ -139,21 +159,13 @@
 
 .casestudy-third-sec {
   display: flex;
+  gap: 100px;
   width: 892px;
   height: 300px;
   justify-self: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.casestudy-third-img {
-  object-fit: contain;
-  padding-left: 50px;
-  height: 100%;
-}
-
-.casestudy-third-text {
-  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 
 .casestudy-third-sec-industry {
