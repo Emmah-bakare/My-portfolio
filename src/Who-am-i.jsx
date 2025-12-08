@@ -34,7 +34,7 @@ export default function WhoamI() {
                 I’ve always been the person who pauses on a beautiful interface
                 and thinks, “wait… how did they build this?”🤯 That curiosity
                 pulled me into frontend development but my dedication made me
-                indispensable to my returning clients.
+                indigit spensable to my returning clients.
               </p>
 
               <p>
