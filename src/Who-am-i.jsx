@@ -33,8 +33,8 @@ export default function WhoamI() {
               <p>
                 I’ve always been the person who pauses on a beautiful interface
                 and thinks, “wait… how did they build this?”🤯 That curiosity
-                pulled me into frontend development but my dedication endeared
-                my services to my returning clients.
+                pulled me into frontend development but my dedication made me
+                indispensable to my returning clients.
               </p>
 
               <p>
@@ -58,8 +58,8 @@ export default function WhoamI() {
               </p>
 
               <p>
-                Ready to warm your way to the eharts of clients through design?
-                Hire me 💁🏼.
+                Ready to warm your way to the hearts of your clients? Hire me
+                💁🏼.
               </p>
             </div>
           </div>
