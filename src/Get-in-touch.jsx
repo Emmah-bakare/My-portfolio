@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./get-in-touch.css";
+import Navbar from "./Navbar";
 
 export default function GetInTouch() {
   // 1. Initialize state for each input field
@@ -32,6 +34,13 @@ export default function GetInTouch() {
   return (
     <>
       <body className="contact-form-bg">
+        <nav>
+          <Navbar />
+          <Link to="/">
+            <button className="home-btn">❮</button>
+          </Link>
+        </nav>
+
         <div>
           <h1 className="h1-form-heading">Get In Touch</h1>
 

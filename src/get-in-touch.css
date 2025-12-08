@@ -4,6 +4,15 @@
   background-color: #000;
 }
 
+.home-btn {
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+}
+
 .h1-form-heading {
   width: 206px;
   height: 40;
