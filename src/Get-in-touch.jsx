@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./get-in-touch.css";
 
-export function GetInTouch() {
+export default function GetInTouch() {
   // 1. Initialize state for each input field
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
@@ -22,9 +22,11 @@ export function GetInTouch() {
 
   // 3. Handle form submission
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent default browser form submission
+    event.preventDefault();
+    setEmail("");
+    setMobile("");
+    setMessage("");
     alert(`Email: ${email}, Mobile: ${mobile}, Message: ${message}`);
-    // You can also send this data to an API or perform other actions
   };
 
   return (
@@ -39,7 +41,7 @@ export function GetInTouch() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={(event) => handleSubmit(event)}>
           <div className="entry-field-div">
             <div>
               <label className="label" htmlFor="email">
@@ -53,7 +55,7 @@ export function GetInTouch() {
               id="email"
               name="email"
               value={email} // Value is controlled by React state
-              onChange={handleEmailChange} // Update state on change
+              onChange={(event) => handleEmailChange(event)} // Update state on change
             />
           </div>
 
@@ -66,11 +68,11 @@ export function GetInTouch() {
 
             <input
               className="input"
-              type="number"
+              type="tel"
               id="mobile"
               name="mobile"
               value={mobile}
-              onChange={handleMobileChange}
+              onChange={(event) => handleMobileChange(event)}
             />
           </div>
 
@@ -87,7 +89,7 @@ export function GetInTouch() {
               id="message"
               name="message"
               value={message}
-              onChange={handleMessageChange}
+              onChange={(event) => handleMessageChange(event)}
             />
           </div>
 

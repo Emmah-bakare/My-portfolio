@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import recentWork1 from "./assets/Recent-work-1.jpeg";
 import recentWork2 from "./assets/Recent-work-2.jpeg";
 import "./recent-work.css";
+import Navbar from "./Navbar";
 
-export function RecentWork() {
+export default function RecentWork() {
   const buttonStyling = {
     textAlign: "left",
     justifyContent: "left",
@@ -12,19 +13,22 @@ export function RecentWork() {
   };
   return (
     <>
-      <nav>
-        <Link to="/">
-          <button className="home-btn-recent-work">❮</button>
-        </Link>
-      </nav>
       <body className="recent-work-body">
+        <nav>
+          <Navbar />
+          <Link to="/">
+            <button className="home-btn">❮</button>
+          </Link>
+        </nav>
+
         <div className="recent-work-intro">
           <h1 className="recent-work-h1">Recent Work</h1>
 
           <p className="recent-work-intro-para">
-            Solving user & business problems since last 15+ years.Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            I like to let my work do most of the talking, so here are a few
+            recent projects that say a lot about how I design and build. Scroll
+            through, click around, and imagine what we could create for your
+            idea next.
           </p>
         </div>
 
@@ -41,11 +45,11 @@ export function RecentWork() {
             </div>
 
             <div className="recent-work-txt">
-              <h2 className="recent-work-h2">Dice game</h2>
+              <h2 className="recent-work-h2">Profit calculator</h2>
 
               <p className="recent-work-para">
-                Labore et dolore magna aliqua. sed do eiusmod tempor incididunt
-                ut labore et dolore magna.
+                A smart profit calculator that helps users see exactly how much
+                they can earn based on the amount they invest.
               </p>
 
               <button style={buttonStyling} className="recent-work-btn">
@@ -64,11 +68,11 @@ export function RecentWork() {
             </div>
 
             <div className="recent-work-txt">
-              <h2 className="recent-work-h2">Profit calculator</h2>
+              <h2 className="recent-work-h2">Dice game</h2>
 
               <p className="recent-work-para">
-                Labore et dolore magna aliqua. sed do eiusmod tempor incididunt
-                ut labore et dolore magna.
+                A two–player dice game built for tension and fun, where every
+                roll feels like a risk. Players can choose to roll or skip
               </p>
 
               <button className="recent-work-btn">Know more </button>

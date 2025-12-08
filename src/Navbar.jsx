@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SmIcons from "./assets/social-media-icon.png";
 
-export function Navbar() {
+export default function Navbar() {
   const linkStyling = { color: "#9C9C9C", textDecoration: "none" };
   return (
     <>
@@ -10,8 +10,8 @@ export function Navbar() {
           <Link style={linkStyling} to="/">
             Home
           </Link>
-          <Link to="/case-studies" style={linkStyling}>
-            Case Studies
+          <Link to="/Who-am-I" style={linkStyling}>
+            Who am I?
           </Link>
           <Link style={linkStyling} to="/testimonials">
             Testimonials

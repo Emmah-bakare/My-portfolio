@@ -1,8 +1,9 @@
-import { Navbar } from "./Navbar";
+import Navbar from "./Navbar";
 import heroImage from "./assets/hero-image.jpeg";
 import clientLogos from "./assets/clients-logo.png";
+import "./hero.css";
 
-export function Hero() {
+export default function Hero() {
   return (
     <>
       <header className="full-hero-section">
@@ -11,10 +12,11 @@ export function Hero() {
           <div className="header-text">
             <h1 className="h1-hero-text">Oreoluwa Bakare</h1>
             <p className="hero-para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-              mollitia eaque ipsam illum quos nesciunt ex cum beatae temporibus
-              rem. Esse assumenda obcaecati eligendi explicabo voluptatem magnam
-              aperiam architecto accusamus.
+              Hi, I’m Oreoluwa — a frontend developer obsessed with interfaces
+              that make people pause. I blend bold, thoughtful design with clean
+              code to build sites that feel fast, intuitive, and personal. Need
+              a frontend that looks sharp and genuinely connects with your
+              users? Let’s build it.
             </p>
 
             <div>

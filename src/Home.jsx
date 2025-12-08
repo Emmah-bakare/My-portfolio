@@ -1,6 +1,6 @@
-import { Hero } from "./Hero";
+import Hero from "./Hero";
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <Hero />
