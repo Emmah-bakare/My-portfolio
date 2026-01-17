@@ -12,16 +12,14 @@ export default function Testimonials() {
       <div className="testimonial-body">
         <nav>
           <Navbar />
-          <Link to="/">
-            <button className="home-btn-testimonials">❮</button>
-          </Link>
         </nav>
         <div>
           <h1 className="testimonials-h1-heading">Testimonials</h1>
 
           <p className="testimonials-intro">
             {" "}
-            Don't take my word for it! The word on the street is that...{" "}
+            Don't take my word for it! The word on the street is that I'm your
+            best bet...{" "}
           </p>
         </div>
 

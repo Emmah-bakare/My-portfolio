@@ -1,0 +1,31 @@
+.body {
+  background-color: white;
+}
+
+/* This removes the "stutter" between slides */
+.tech-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+  margin-top: 30px;
+}
+
+.tech-swiper img {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.126));
+}
+
+/* Apply to the images inside your Swiper slides */
+.tech-swiper img {
+  filter: brightness(0) invert(1); /* Forces logos to pure white */
+  opacity: 0.8; /* Optional: makes them look "sleek" rather than harsh white */
+  transition: filter 0.3s ease;
+}
+
+/* Optional: Show original colors on hover */
+.tech-swiper img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.react {
+  height: 30px;
+  width: 30px;
+}

@@ -9,12 +9,9 @@ export default function WhoamI() {
       <body className="about-me-body">
         <nav>
           <Navbar />
-          <Link to="/">
-            <button className="home-btn">❮</button>
-          </Link>
         </nav>
         <header className="intro-text">
-          <h1 className="intro-heading">Who am I?</h1>
+          <h1 className="intro-heading">Pleased to meet you...</h1>
         </header>
 
         <section className="about-me-section">
@@ -25,7 +22,7 @@ export default function WhoamI() {
 
             <div className="about-me-para">
               <p>
-                An avenger-level designer ready to deliver precise designs that
+                I'm a frontend avenger ready to deliver precise designs that
                 stops you in your tracks. Not even Thanos can stop that. Don't
                 believe me? Hold my beer 🍺.
               </p>
@@ -33,8 +30,8 @@ export default function WhoamI() {
               <p>
                 I’ve always been the person who pauses on a beautiful interface
                 and thinks, “wait… how did they build this?”🤯 That curiosity
-                pulled me into frontend development but my dedication made me
-                indigit spensable to my returning clients.
+                pulled me into frontend development but my dedication has made
+                me indispensable to my returning clients.
               </p>
 
               <p>
@@ -58,8 +55,8 @@ export default function WhoamI() {
               </p>
 
               <p>
-                Ready to warm your way to the hearts of your clients? Hire me
-                💁🏼.
+                Ready to warm your way to the hearts of your clients?{" "}
+                <button className="about-me-button">Hire me 💁🏼</button>
               </p>
             </div>
           </div>

@@ -141,14 +141,23 @@ nav {
   text-align: left;
 }
 
-.next-btn {
-  width: 29.89px;
-  height: 30px;
-  top: 414px;
-  left: 1080px;
-  border-radius: 54px;
-  border: 1px solid #9c9c9c;
-  padding: 10px 12px;
+.recent-work-para-2 {
+  width: 421px;
+  height: 48px;
+  top: 388px;
   gap: 10px;
-  color: #000;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: #9c9c9c;
+  text-align: left;
+  padding-bottom: 30%;
+}
+
+.recent-work-txt-2 {
+  text-align: left;
+  padding-bottom: 50px;
 }

@@ -36,9 +36,6 @@ export default function GetInTouch() {
       <body className="contact-form-bg">
         <nav>
           <Navbar />
-          <Link to="/">
-            <button className="home-btn">❮</button>
-          </Link>
         </nav>
 
         <div>

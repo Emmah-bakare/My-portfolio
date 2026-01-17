@@ -10,6 +10,7 @@ body {
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 .navbar-rectangle {
@@ -48,17 +49,12 @@ body {
 .header-text {
   text-align: left;
   color: #fff;
-  height: 538px;
-  width: 247px;
-  top: 201px;
-  left: 180px;
   margin-top: 10%;
   margin-left: 10%;
 }
 
 .h1-hero-text {
-  padding-top: 20%;
-  width: 492px;
+  padding-top: 5%;
   font-family: "Raleway";
   font-weight: 800;
   font-style: "Extra-bold";
@@ -99,24 +95,21 @@ body {
   border-radius: 50%;
   width: 400px;
   height: 400px;
-  margin-top: 17%;
+  margin-top: 20%;
   object-fit: cover;
+  margin-left: 10%;
 }
 
 .hero-past-clients-text {
   color: #fff;
   font-family: "IBM Plex Mono";
-  font-weight: 400;
+  font-weight: 500;
   font-style: Regular;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin-top: 100px;
+  margin-top: 50px;
   left: 180px;
   gap: 10px;
-}
-
-.hero-past-clients-logo {
-  width: 920px;
-  height: 60px;
+  margin-bottom: 50px;
 }

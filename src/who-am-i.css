@@ -60,3 +60,16 @@ nav {
   border-bottom-left-radius: 50%;
   border-top-right-radius: 50%;
 }
+
+.about-me-button {
+  background-color: rgb(63, 168, 238);
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 8px 8px;
+  border-radius: 20px;
+}
